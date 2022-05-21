@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-row: 1 / 3;
+    display: grid;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.main {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
