@@ -62,7 +62,20 @@ body {
 
 .header {
     background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
+
+.search, .top-right, .user-info, .buttons {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.user-info {
+    grid-template-columns: 60px 250px;
+}
+
 
 .main {
     background-color: blueviolet;
