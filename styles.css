@@ -23,12 +23,22 @@
     color: white;
     font-weight: bold;
     font-family: Macondo;
+    font-size: 22px;
+}
+
+.hover:hover {
+    font-size: 25px;
+}
+.dashboard-text {
+    font-size: 25px;
 }
 
 .dashboard-icon-text {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .dashboard-icon {
@@ -38,9 +48,12 @@
 .nav-upper {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    padding-top: 30px;
 }
+
 .nav-upper-left, .nav-lower-left {
     justify-content: center;
+    padding-left: 10px;
 }
 .nav-upper-right, .nav-upper-left {
     display: grid;
@@ -50,6 +63,7 @@
 .nav-lower {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    padding-top: 30px;
 }
 
 .nav-lower-left, .nav-lower-right {
