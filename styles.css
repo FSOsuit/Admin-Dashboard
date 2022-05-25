@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Macondo;
+    src: url(fonts/Macondo/Macondo-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,23 +16,22 @@
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: rgb(1, 142, 224);
     grid-row: 1 / 3;
     display: grid;
     grid-template-rows: 60px 280px 160px;
+    color: white;
+    font-weight: bold;
+    font-family: Macondo;
 }
 
 .dashboard-icon-text {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: green;
     align-items: center;
 }
 
 .dashboard-icon {
-    width: 30px;
-    height: 30px;
-    border: solid 1px;
     justify-self: center;
 }
 
@@ -39,14 +43,11 @@
     justify-content: center;
 }
 .nav-upper-right, .nav-upper-left {
-    background-color: orange;
     display: grid;
     grid-template-rows: repeat(6, 40px);
-    border: 1px solid;
 }
 
 .nav-lower {
-    background-color: yellow;
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
@@ -54,7 +55,6 @@
 .nav-lower-left, .nav-lower-right {
     display: grid;
     grid-template-rows: repeat(3, 40px);
-    border: 1px solid;
 }
 
 .header {
