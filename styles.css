@@ -11,7 +11,7 @@
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 140px 5fr;
     grid-template-columns: 1fr 5fr;
 }
 
@@ -127,4 +127,20 @@
 .row1, .row2, .row3, .row4 {
     display: grid;
     grid-auto-flow: column;
+}
+
+.icon {
+    background-color: yellow;
+}
+.icon>img {
+    height: 40px;
+    width:40px;
+}
+
+.icon-large {
+    background-color: yellow;
+}
+.icon-large>img {
+    width: 60px;
+    height: 60px;
 }
