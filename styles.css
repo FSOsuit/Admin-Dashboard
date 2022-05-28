@@ -89,15 +89,16 @@
     grid-auto-flow: column;
 }
 .search {
-    border: solid 1px;
-    align-items: center;
-    grid-template-columns: max-content;
-    gap: 10px;
+    grid-template-columns: 45px 1fr;
+    justify-items: center;
 }
 .search-icon {
-    width: fit-content;
+    width: auto;
 }
-
+.search-input {
+    width: 90%;
+    justify-self: start;
+}
 input {
     width: 100%;
     height: 22px;
@@ -111,13 +112,20 @@ input:focus {
     outline-color: lightgray;
 }
 
-.search-icon>img{
+.search-icon>img, .bell-icon>img{
     width: 19px;
     height: 19px;
 }
 .search, .top-right, .user-info, .buttons {
     display: grid;
     grid-auto-flow: column;
+    align-items: center;
+}
+
+.top-right {
+    justify-content: center;
+    gap: 30px;
+    
 }
 
 .user-info {
