@@ -121,21 +121,39 @@ input:focus {
     align-items: center;
 }
 
-.top-right {
-    justify-content: center;
-    gap: 25px;
-}
-
 .name {
     font-family: Macondo;
     font-size: 19px;
     font-weight: bold;
 }
 
+.top-right {
+    justify-content: center;
+    gap: 25px;
+}
 
 .user-info {
-    grid-template-columns: 60px 250px;
+    justify-items: center;
+    grid-template-columns: 95px 1fr;
 }
+
+.name-msg {
+    justify-self: start;
+    row-gap: 5px;
+}
+
+.msg {
+    font-family: Macondo;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.name-paran {
+    font-family: Macondo;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 
 
 .main {
@@ -195,8 +213,15 @@ input:focus {
 
 .icon-large {
     background-color: yellow;
+    height: 70px;
+    width: 70px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
 }
 .icon-large>img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
