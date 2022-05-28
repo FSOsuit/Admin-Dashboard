@@ -124,7 +124,6 @@ input:focus {
 
 .top-right {
     justify-content: center;
-    gap: 30px;
     
 }
 
@@ -175,7 +174,13 @@ input:focus {
 }
 
 .icon {
+    height: 55px;
+    width: 55px;
     background-color: yellow;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 .icon>img {
     height: 40px;
