@@ -11,7 +11,7 @@
 
 .container {
     display: grid;
-    grid-template-rows: 140px 5fr;
+    grid-template-rows: 160px 5fr;
     grid-template-columns: 1fr 5fr;
 }
 
@@ -73,12 +73,48 @@
 }
 
 .header {
-    background-color: aqua;
+    background-color: white;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    
 }
 
+.header-top {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.header-bottom {
+    display: grid;
+    grid-auto-flow: column;
+}
+.search {
+    border: solid 1px;
+    align-items: center;
+    grid-template-columns: max-content;
+    gap: 10px;
+}
+.search-icon {
+    width: fit-content;
+}
+
+input {
+    width: 100%;
+    height: 22px;
+    border-radius: 16px;
+    background-color: lightgrey;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input:focus {
+    outline-color: lightgray;
+}
+
+.search-icon>img{
+    width: 19px;
+    height: 19px;
+}
 .search, .top-right, .user-info, .buttons {
     display: grid;
     grid-auto-flow: column;
