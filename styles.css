@@ -29,6 +29,7 @@
 .hover:hover {
     font-size: 25px;
     text-decoration: underline;
+    cursor: pointer;
 }
 .dashboard-text {
     font-size: 25px;
@@ -75,8 +76,6 @@
 .header {
     background-color: white;
     display: grid;
-    grid-template-rows: 1fr 2fr;
-    
 }
 
 .header-top {
@@ -103,13 +102,13 @@ input {
     width: 100%;
     height: 22px;
     border-radius: 16px;
-    background-color: lightgrey;
+    background-color: rgb(180, 225, 240);
     border: 0;
     padding-left: 10px;
     padding-right: 10px;
 }
 input:focus {
-    outline-color: lightgray;
+    outline-color: rgb(180, 225, 240);
 }
 
 .search-icon>img, .bell-icon>img{
@@ -124,8 +123,15 @@ input:focus {
 
 .top-right {
     justify-content: center;
-    
+    gap: 25px;
 }
+
+.name {
+    font-family: Macondo;
+    font-size: 19px;
+    font-weight: bold;
+}
+
 
 .user-info {
     grid-template-columns: 60px 250px;
