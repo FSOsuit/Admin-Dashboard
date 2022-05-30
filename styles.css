@@ -175,15 +175,17 @@ button:active {
 }
 
 .main {
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-bottom: 97px;
     background-color: rgb(180, 225, 240);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 20px;
 }
 
 .projects {
     display: grid;
-    gap: 30px;
 }
 
 .project-header {
