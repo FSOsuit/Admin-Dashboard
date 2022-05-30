@@ -154,7 +154,25 @@ input:focus {
     font-weight: bold;
 }
 
+.button-new {
+    justify-self: end;
+}
 
+.button-upload {
+    justify-self: center;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: rgb(1, 142, 224);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+button:active {
+    transform: scale(1.1);
+}
 
 .main {
     background-color: blueviolet;
@@ -200,7 +218,7 @@ input:focus {
 .icon {
     height: 55px;
     width: 55px;
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -212,7 +230,7 @@ input:focus {
 }
 
 .icon-large {
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
     height: 70px;
     width: 70px;
     display: grid;
@@ -225,3 +243,4 @@ input:focus {
     width: 50px;
     height: 50px;
 }
+
